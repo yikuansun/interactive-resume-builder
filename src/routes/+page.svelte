@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+    import ResumeShell from "$lib/components/ResumeShell.svelte";
+</script>
+
+<div style:width="800px" style:height="600px" style:background-color="black"
+    style:padding="20px">
+    <ResumeShell name="Yikuan" />
+</div>

@@ -21,6 +21,10 @@
 
 <div id="previewPanel">
     <ResumeShell data={resumeData} />
+    <a href="./resume" target="_blank"
+        style:position="absolute" style:top="15px" style:right="15px">
+        <button>Open External</button>
+    </a>
 </div>
 
 <style>

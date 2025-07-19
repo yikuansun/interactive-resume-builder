@@ -1,11 +1,10 @@
 <script lang="ts">
+    import type { ResumeData } from "$lib/types/ResumeData";
+
     export let pageWidth: number = 2550;
     export let pageHeight: number = 3300;
 
-    export let data: {
-        name: string;
-        email: string;
-    } = {
+    export let data: ResumeData = {
         name: "Yikuan",
         email: "yikuan@example.com",
     };

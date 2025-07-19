@@ -1,7 +1,8 @@
 <script lang="ts">
     import ResumeShell from "$lib/components/ResumeShell.svelte";
+    import type { ResumeData } from "$lib/types/ResumeData";
 
-    let resumeData: { [key: string]: any } = {
+    let resumeData: ResumeData = {
         name: "Yikuan",
         email: "yikuan@example.com",
     };

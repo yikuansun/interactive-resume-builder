@@ -4,7 +4,7 @@
 
 <div style:width="100vw" style:height="100vh" style:background-color="black"
     style:position="fixed" style:top="0" style:left="0">
-    <ResumeShell name="Yikuan" />
+    <ResumeShell data={{ name: "Yikuan", email: "yikuan@example.com" }} />
 </div>
 
 <style>

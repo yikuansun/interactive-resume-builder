@@ -1,7 +1,14 @@
 <script lang="ts">
-    export let name: string;
     export let pageWidth: number = 2550;
     export let pageHeight: number = 3300;
+
+    export let data: {
+        name: string;
+        email: string;
+    } = {
+        name: "Yikuan",
+        email: "yikuan@example.com",
+    };
 </script>
 
 <svg viewBox="0 0 2550 3300" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
@@ -13,7 +20,10 @@
         <foreignObject x="0" y="0" width={pageWidth} height={500} style:border-bottom="10px solid grey">
             <div style:display="flex" style:flex-direction="column" style:align-items="center" style:justify-content="center"
                 style:width="100%" style:height="100%">
-                <div style:font-size="150px">{name}</div>
+                <h1 style:font-size="150px" style:margin="10px">{data.name}</h1>
+                <p style:font-size="70px" style:margin="10px">
+                    <a href="mailto:{data.email}" target="_blank">{data.email}</a>
+                </p>
             </div>
         </foreignObject>
     </g>

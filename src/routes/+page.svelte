@@ -4,5 +4,5 @@
 
 <div style:width="800px" style:height="600px" style:background-color="black"
     style:padding="20px">
-    <ResumeShell name="Yikuan" />
+    <ResumeShell />
 </div>
